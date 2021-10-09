@@ -1,0 +1,195 @@
+body{
+    width: 70%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    
+}
+.div-header{
+    background-color: rgb(8, 23, 36);
+    margin-top: 0x;
+    height: 60px;
+    border-top: 1px solid transparent;
+    position: relative;
+   
+
+     
+   
+}
+
+.logo{
+    padding:10px 0 0 150px;
+    position: relative;
+    left: 10px;
+    
+    
+}
+
+li a:hover{
+    color:rgb(179, 174, 179);
+    font-size: 13px; 
+}
+
+
+.lista-pai {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    
+    
+    
+}
+.lista{
+    display: inline-block;
+    list-style: none;
+    
+
+}
+header nav ul li:hover{
+
+    background-color: rgba(4, 7, 8, 0.788);
+
+}
+    
+.div-header nav a{
+    text-decoration:none;
+    color:  rgb(97, 107, 110);  
+    display: block;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1.8px;
+    
+    
+}
+   
+.div-header nav a:hover{
+    color: rgba(255, 255, 255, 0.541);
+}
+.img-topo{
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.842);
+    font-weight:bolder;
+
+}
+.p1{
+    text-align: center;
+    font-size: 15px;
+    line-height: 2;
+    margin-left: 15% ;
+    margin-right: 15%;
+    color: rgb(92, 92, 92);
+
+
+}
+main{
+    margin: auto;
+    width: 80%;
+
+  
+}
+.section2{
+    margin-top: 50px;
+    padding: 10px;
+    overflow: auto;
+}
+
+
+.card{  
+    width: 32%;
+    box-sizing: border-box;
+    float: left;
+
+}
+.card1, .card2{
+    margin-right: 2%;
+}
+.card img{
+    width: 100%;
+
+}
+.card h2{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 1.9px;
+    color: rgb(32, 32, 32);
+    text-align: center;
+
+}
+.card p{
+    font-size: 20px;
+    color: rgb(92, 92, 92);
+    text-align: center;
+
+
+
+}
+.art-fim{
+    background-image: url(/imagens/bg_detalhe.png);
+    height: 500px;
+
+    padding: 160px;
+    background-repeat: no-repeat;
+    background-position:  right;
+    background-size:100%;
+    
+    
+}
+.art-fim h4{
+    color: white;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 300;
+    
+}
+.art-fim p{
+   color: white;
+   line-height: 2;
+   text-align: left;
+   padding-right: 45%;
+
+
+}
+address{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px;
+    color: rgb(00, 61, 82);
+    font-size: 30px;
+    font-weight: 500;
+    font-style: normal;
+}
+em{
+    text-transform: none;
+}
+address a{
+    text-decoration: none;
+    color: rgb(00, 61, 82);
+    padding: 4px;
+}
+.art-mapa{
+    border-bottom: 1px solid transparent;
+
+}
+.mapa{
+    
+
+    align-items: center;
+}
+footer{
+    background-color: rgb(11, 20, 24);
+    padding: 25px 0 25px 0 ;
+    height: 50px;
+    text-align: center;
+    color: rgb(180, 180, 180);
+    letter-spacing: 2px;
+
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
